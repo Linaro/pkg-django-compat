@@ -1,0 +1,27 @@
+Source: django-compat
+Maintainer: Debian LAVA team <pkg-linaro-lava-devel@lists.alioth.debian.org>
+Uploaders: Senthil Kumaran S <stylesen@gmail.com>,
+ Neil Williams <codehelp@debian.org>,
+ Fathi Boudra <fabo@debian.org>,
+ Jordi Mallach <jordi@debian.org>
+Section: python
+Priority: optional
+Build-Depends: debhelper (>= 9), dh-python,
+ python | python-all (>= 2.6.6-3) | python-dev | python-all-dev,
+ python-setuptools (>= 0.6b3), python-django
+X-Python-Version: 2.7
+Standards-Version: 3.9.6
+Homepage: https://github.com/arteria/django-compat
+Vcs-Git: https://github.com/arteria/django-compat.git
+Vcs-Browser: https://github.com/Linaro/pkg-django-compat
+
+Package: django-compat
+Architecture: all
+Depends: python-six (>= 1.8.0-1), ${misc:Depends}, ${python:Depends}
+Description: For- and backwards compatibility layer for Django 1.4.x to 1.8.x
+ This module provides a backwards compatibility layer for Django versions which
+ helps in the following:
+ 1. Be able to use the LTS versions of Django and support newer versions in
+    your app
+ 2. Use features from newer Django versions in an old one
+ 3. Manage and master the gap between different framework versions

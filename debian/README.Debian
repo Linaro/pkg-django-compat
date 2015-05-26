@@ -1,0 +1,9 @@
+django-compat 1.0.6
+===================
+
+For- and backwards compatibility layer for Django 1.4.x to 1.8.x
+
+What started as an experiment based on this discussion on reddit[1] has proven
+to be true in real life.
+
+[1] http://redd.it/2jrr4l
