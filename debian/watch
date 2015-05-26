@@ -1,3 +1,4 @@
-# pypi location no longer works with uscan
-# upstream have no tags in github.
+version=3
 
+opts="filenamemangle=s/(?:.*)?v?(\d[\d\.]*)\.tar\.gz/django-compat-$1.tar.gz/" \
+         https://github.com/arteria/django-compat/tags (?:.*/)?v?(\d[\d\.]*)\.tar\.gz
