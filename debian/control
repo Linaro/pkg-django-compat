@@ -15,7 +15,7 @@ Homepage: https://github.com/arteria/django-compat
 Vcs-Git: https://github.com/arteria/django-compat.git
 Vcs-Browser: https://github.com/Linaro/pkg-django-compat
 
-Package: django-compat
+Package: python-django-compat
 Architecture: all
 Depends: python-six (>= 1.8.0-1), ${misc:Depends}, ${python:Depends}
 Description: Forward and backwards compatibility layer for Django 1.4.x to 1.8.x
