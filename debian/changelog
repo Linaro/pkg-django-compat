@@ -3,4 +3,4 @@ django-compat (1.0.6-1) UNRELEASED; urgency=medium
   * Initial release. (Closes: #786898: ITP: django-compat -- "Forward and
     backwards compatibility layer for Django 1.4.x to 1.8.x")
 
- -- Senthil Kumaran S (stylesen) <stylesen@gmail.com>  Tue, 26 May 2015 13:58:57 +0530
+ -- Senthil Kumaran S (stylesen) <stylesen@gmail.com>  Wed, 17 Jun 2015 10:32:00 +0530
