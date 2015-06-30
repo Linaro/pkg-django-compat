@@ -1,8 +1,14 @@
-django-compat (1.0.6-1) unstable; urgency=medium
+django-compat (1.0.6-2) unstable; urgency=medium
 
-  [ Senthil Kumaran S (stylesen) ]
-  * Initial release. (Closes: #786898: ITP: django-compat -- "Forward and
-    backwards compatibility layer for Django 1.4.x to 1.8.x")
   * Add autopkgtest support
+  * Fix Vcs* links
+  * Remove README.Debian since it is redundant with control file description
 
  -- Senthil Kumaran S (stylesen) <stylesen@gmail.com>  Tue, 30 Jun 2015 15:53:49 +0530
+
+django-compat (1.0.6-1) unstable; urgency=medium
+
+  * Initial release. (Closes: #786898: ITP: django-compat -- "Forward and
+    backwards compatibility layer for Django 1.4.x to 1.8.x")
+
+ -- Senthil Kumaran S (stylesen) <stylesen@gmail.com>  Wed, 17 Jun 2015 10:32:00 +0530
