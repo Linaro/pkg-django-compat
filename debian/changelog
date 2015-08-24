@@ -1,3 +1,9 @@
+django-compat (1.0.7-1) unstable; urgency=medium
+
+  * New upstream production release.
+
+ -- Senthil Kumaran S (stylesen) <stylesen@gmail.com>  Mon, 24 Aug 2015	05:42:35 +0530
+
 django-compat (1.0.6-2) unstable; urgency=medium
 
   * Add autopkgtest support
