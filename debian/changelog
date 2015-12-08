@@ -1,3 +1,10 @@
+django-compat (1.0.8-1) unstable; urgency=medium
+
+  * New upstream production release.
+  * Supports django 1.9.x. (Closes: #807097)
+
+ -- Senthil Kumaran S (stylesen) <stylesen@gmail.com>  Tue, 08 Dec 2015 20:00:55 +0530
+
 django-compat (1.0.7-2) unstable; urgency=medium
 
   * Add Neil Williams (codehelp) as an uploader.
