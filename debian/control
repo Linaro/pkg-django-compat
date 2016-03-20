@@ -16,7 +16,7 @@ Vcs-Browser: https://github.com/Linaro/pkg-django-compat.git
 
 Package: python-django-compat
 Architecture: all
-Depends: python-six (>= 1.8.0-1), ${misc:Depends}, ${python:Depends}
+Depends: python-six, ${misc:Depends}, ${python:Depends}
 Description: Forward and backwards compatibility layer for Django 1.4.x to 1.9.x
  This module provides a backwards compatibility layer for Django versions which
  helps in the following:
