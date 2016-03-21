@@ -1,7 +1,7 @@
 #!/usr/bin/make -f
 
 %:
-	dh $@ --with python2
+	dh $@ --with python2,python3
 
 override_dh_auto_test::
 	python runtests.py
@@ -9,6 +9,7 @@ override_dh_auto_test::
 override_dh_auto_install:
 	dh_auto_install
 	python setup.py install --root=debian/python-django-compat/ --install-layout=deb
+	python3 setup.py install --root=debian/python3-django-compat/ --install-layout=deb
 
 override_dh_auto_clean::
 	$(RM) -r django_compat.egg-info/ build/ dist/
