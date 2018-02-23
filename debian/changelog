@@ -1,3 +1,11 @@
+django-compat (1.0.15-1) unstable; urgency=medium
+
+  * New upstream production release.
+  * Fix FTBFS with Django 1.11 (Closes: #865661)
+  * Fix Excessive build-depends complicate python3 transition (Closes: #866504)
+
+ -- Senthil Kumaran S (stylesen) <stylesen@gmail.com>  Fri, 23 Feb 2018 18:42:27 +0530
+
 django-compat (1.0.13-1) unstable; urgency=medium
 
   * New upstream production release.
