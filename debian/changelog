@@ -1,3 +1,13 @@
+django-compat (1.0.15-2) unstable; urgency=medium
+
+  * Add a Debian patch to fix django dependency.
+  * Fix python3-django-compat: missing dependency on python3-django
+    (Closes: #896205)
+  * Fix python-django-compat: missing dependency on python-django
+    (Closes: #896337)
+
+ -- Senthil Kumaran S (stylesen) <stylesen@gmail.com>  Sat, 21 Apr 2018 18:10:51 +0530
+
 django-compat (1.0.15-1) unstable; urgency=medium
 
   * New upstream production release.

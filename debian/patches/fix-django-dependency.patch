@@ -1,0 +1,7 @@
+diff --git a/requirements.txt b/requirements.txt
+index dde3933..4d995be 100644
+--- a/requirements.txt
++++ b/requirements.txt
+@@ -1 +1,2 @@
++django>=1.10
+ six>=1.10.0
